@@ -80,7 +80,7 @@ class Post extends Controller
             $imageName = time().'.'.$request->image->getClientOriginalExtension();
             $request->image->move('./storage/uploads', $imageName);
         }
-        
+
         // $input = $request->all();
 
         // $post->fill($input)->save();
